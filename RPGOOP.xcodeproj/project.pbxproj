@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2BA81341C44D5CC00DD0885 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA81331C44D5CC00DD0885 /* AppDelegate.swift */; };
+		F2BA81361C44D5CC00DD0885 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA81351C44D5CC00DD0885 /* ViewController.swift */; };
+		F2BA81391C44D5CC00DD0885 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BA81371C44D5CC00DD0885 /* Main.storyboard */; };
+		F2BA813B1C44D5CC00DD0885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2BA813A1C44D5CC00DD0885 /* Assets.xcassets */; };
+		F2BA813E1C44D5CC00DD0885 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BA813C1C44D5CC00DD0885 /* LaunchScreen.storyboard */; };
+		F2BA81491C44D5CC00DD0885 /* RPGOOPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA81481C44D5CC00DD0885 /* RPGOOPTests.swift */; };
+		F2BA81541C44D5CC00DD0885 /* RPGOOPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA81531C44D5CC00DD0885 /* RPGOOPUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2BA81451C44D5CC00DD0885 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2BA81281C44D5CC00DD0885 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2BA812F1C44D5CC00DD0885;
+			remoteInfo = RPGOOP;
+		};
+		F2BA81501C44D5CC00DD0885 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2BA81281C44D5CC00DD0885 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2BA812F1C44D5CC00DD0885;
+			remoteInfo = RPGOOP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2BA81301C44D5CC00DD0885 /* RPGOOP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPGOOP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2BA81331C44D5CC00DD0885 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2BA81351C44D5CC00DD0885 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2BA81381C44D5CC00DD0885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2BA813A1C44D5CC00DD0885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2BA813D1C44D5CC00DD0885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2BA813F1C44D5CC00DD0885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2BA81441C44D5CC00DD0885 /* RPGOOPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPGOOPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2BA81481C44D5CC00DD0885 /* RPGOOPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPGOOPTests.swift; sourceTree = "<group>"; };
+		F2BA814A1C44D5CC00DD0885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2BA814F1C44D5CC00DD0885 /* RPGOOPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPGOOPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2BA81531C44D5CC00DD0885 /* RPGOOPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPGOOPUITests.swift; sourceTree = "<group>"; };
+		F2BA81551C44D5CC00DD0885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2BA812D1C44D5CC00DD0885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2BA81411C44D5CC00DD0885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2BA814C1C44D5CC00DD0885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2BA81271C44D5CC00DD0885 = {
+			isa = PBXGroup;
+			children = (
+				F2BA81321C44D5CC00DD0885 /* RPGOOP */,
+				F2BA81471C44D5CC00DD0885 /* RPGOOPTests */,
+				F2BA81521C44D5CC00DD0885 /* RPGOOPUITests */,
+				F2BA81311C44D5CC00DD0885 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2BA81311C44D5CC00DD0885 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2BA81301C44D5CC00DD0885 /* RPGOOP.app */,
+				F2BA81441C44D5CC00DD0885 /* RPGOOPTests.xctest */,
+				F2BA814F1C44D5CC00DD0885 /* RPGOOPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2BA81321C44D5CC00DD0885 /* RPGOOP */ = {
+			isa = PBXGroup;
+			children = (
+				F2BA81331C44D5CC00DD0885 /* AppDelegate.swift */,
+				F2BA81351C44D5CC00DD0885 /* ViewController.swift */,
+				F2BA81371C44D5CC00DD0885 /* Main.storyboard */,
+				F2BA813A1C44D5CC00DD0885 /* Assets.xcassets */,
+				F2BA813C1C44D5CC00DD0885 /* LaunchScreen.storyboard */,
+				F2BA813F1C44D5CC00DD0885 /* Info.plist */,
+			);
+			path = RPGOOP;
+			sourceTree = "<group>";
+		};
+		F2BA81471C44D5CC00DD0885 /* RPGOOPTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2BA81481C44D5CC00DD0885 /* RPGOOPTests.swift */,
+				F2BA814A1C44D5CC00DD0885 /* Info.plist */,
+			);
+			path = RPGOOPTests;
+			sourceTree = "<group>";
+		};
+		F2BA81521C44D5CC00DD0885 /* RPGOOPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2BA81531C44D5CC00DD0885 /* RPGOOPUITests.swift */,
+				F2BA81551C44D5CC00DD0885 /* Info.plist */,
+			);
+			path = RPGOOPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2BA812F1C44D5CC00DD0885 /* RPGOOP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2BA81581C44D5CC00DD0885 /* Build configuration list for PBXNativeTarget "RPGOOP" */;
+			buildPhases = (
+				F2BA812C1C44D5CC00DD0885 /* Sources */,
+				F2BA812D1C44D5CC00DD0885 /* Frameworks */,
+				F2BA812E1C44D5CC00DD0885 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RPGOOP;
+			productName = RPGOOP;
+			productReference = F2BA81301C44D5CC00DD0885 /* RPGOOP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2BA81431C44D5CC00DD0885 /* RPGOOPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2BA815B1C44D5CC00DD0885 /* Build configuration list for PBXNativeTarget "RPGOOPTests" */;
+			buildPhases = (
+				F2BA81401C44D5CC00DD0885 /* Sources */,
+				F2BA81411C44D5CC00DD0885 /* Frameworks */,
+				F2BA81421C44D5CC00DD0885 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2BA81461C44D5CC00DD0885 /* PBXTargetDependency */,
+			);
+			name = RPGOOPTests;
+			productName = RPGOOPTests;
+			productReference = F2BA81441C44D5CC00DD0885 /* RPGOOPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2BA814E1C44D5CC00DD0885 /* RPGOOPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2BA815E1C44D5CC00DD0885 /* Build configuration list for PBXNativeTarget "RPGOOPUITests" */;
+			buildPhases = (
+				F2BA814B1C44D5CC00DD0885 /* Sources */,
+				F2BA814C1C44D5CC00DD0885 /* Frameworks */,
+				F2BA814D1C44D5CC00DD0885 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2BA81511C44D5CC00DD0885 /* PBXTargetDependency */,
+			);
+			name = RPGOOPUITests;
+			productName = RPGOOPUITests;
+			productReference = F2BA814F1C44D5CC00DD0885 /* RPGOOPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2BA81281C44D5CC00DD0885 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = HardCoders;
+				TargetAttributes = {
+					F2BA812F1C44D5CC00DD0885 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F2BA81431C44D5CC00DD0885 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F2BA812F1C44D5CC00DD0885;
+					};
+					F2BA814E1C44D5CC00DD0885 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F2BA812F1C44D5CC00DD0885;
+					};
+				};
+			};
+			buildConfigurationList = F2BA812B1C44D5CC00DD0885 /* Build configuration list for PBXProject "RPGOOP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2BA81271C44D5CC00DD0885;
+			productRefGroup = F2BA81311C44D5CC00DD0885 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2BA812F1C44D5CC00DD0885 /* RPGOOP */,
+				F2BA81431C44D5CC00DD0885 /* RPGOOPTests */,
+				F2BA814E1C44D5CC00DD0885 /* RPGOOPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2BA812E1C44D5CC00DD0885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BA813E1C44D5CC00DD0885 /* LaunchScreen.storyboard in Resources */,
+				F2BA813B1C44D5CC00DD0885 /* Assets.xcassets in Resources */,
+				F2BA81391C44D5CC00DD0885 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2BA81421C44D5CC00DD0885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2BA814D1C44D5CC00DD0885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2BA812C1C44D5CC00DD0885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BA81361C44D5CC00DD0885 /* ViewController.swift in Sources */,
+				F2BA81341C44D5CC00DD0885 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2BA81401C44D5CC00DD0885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BA81491C44D5CC00DD0885 /* RPGOOPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2BA814B1C44D5CC00DD0885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BA81541C44D5CC00DD0885 /* RPGOOPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2BA81461C44D5CC00DD0885 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2BA812F1C44D5CC00DD0885 /* RPGOOP */;
+			targetProxy = F2BA81451C44D5CC00DD0885 /* PBXContainerItemProxy */;
+		};
+		F2BA81511C44D5CC00DD0885 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2BA812F1C44D5CC00DD0885 /* RPGOOP */;
+			targetProxy = F2BA81501C44D5CC00DD0885 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2BA81371C44D5CC00DD0885 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2BA81381C44D5CC00DD0885 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2BA813C1C44D5CC00DD0885 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2BA813D1C44D5CC00DD0885 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2BA81561C44D5CC00DD0885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2BA81571C44D5CC00DD0885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2BA81591C44D5CC00DD0885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RPGOOP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HardCoders.RPGOOP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F2BA815A1C44D5CC00DD0885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RPGOOP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HardCoders.RPGOOP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F2BA815C1C44D5CC00DD0885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RPGOOPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HardCoders.RPGOOPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RPGOOP.app/RPGOOP";
+			};
+			name = Debug;
+		};
+		F2BA815D1C44D5CC00DD0885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RPGOOPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HardCoders.RPGOOPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RPGOOP.app/RPGOOP";
+			};
+			name = Release;
+		};
+		F2BA815F1C44D5CC00DD0885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RPGOOPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HardCoders.RPGOOPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RPGOOP;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F2BA81601C44D5CC00DD0885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RPGOOPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HardCoders.RPGOOPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RPGOOP;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2BA812B1C44D5CC00DD0885 /* Build configuration list for PBXProject "RPGOOP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2BA81561C44D5CC00DD0885 /* Debug */,
+				F2BA81571C44D5CC00DD0885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2BA81581C44D5CC00DD0885 /* Build configuration list for PBXNativeTarget "RPGOOP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2BA81591C44D5CC00DD0885 /* Debug */,
+				F2BA815A1C44D5CC00DD0885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F2BA815B1C44D5CC00DD0885 /* Build configuration list for PBXNativeTarget "RPGOOPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2BA815C1C44D5CC00DD0885 /* Debug */,
+				F2BA815D1C44D5CC00DD0885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F2BA815E1C44D5CC00DD0885 /* Build configuration list for PBXNativeTarget "RPGOOPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2BA815F1C44D5CC00DD0885 /* Debug */,
+				F2BA81601C44D5CC00DD0885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2BA81281C44D5CC00DD0885 /* Project object */;
+}
