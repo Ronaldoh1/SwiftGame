@@ -21,7 +21,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="K8f-xg-pfC">
                                 <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rSj-ng-azP">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rSj-ng-azP">
                                 <rect key="frame" x="488" y="186" width="80" height="73"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="03C-An-wh6"/>
@@ -92,6 +92,17 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="trA-bb-mUe">
+                                <rect key="frame" x="515" y="256" width="53" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="UVY-H2-MFX"/>
+                                    <constraint firstAttribute="width" constant="53" id="yxT-2U-uhn"/>
+                                </constraints>
+                                <state key="normal" image="attack"/>
+                                <connections>
+                                    <action selector="attack:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HuO-gm-KDb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -111,10 +122,12 @@
                             <constraint firstItem="Q83-a1-13t" firstAttribute="top" secondItem="CTL-Dc-QZi" secondAttribute="bottom" constant="3" id="XoS-xl-QzZ"/>
                             <constraint firstItem="NTp-cL-zE4" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="ZIs-Mz-Xbd"/>
                             <constraint firstAttribute="trailing" secondItem="Q83-a1-13t" secondAttribute="trailing" id="cb2-zL-8in"/>
+                            <constraint firstAttribute="trailing" secondItem="trA-bb-mUe" secondAttribute="trailing" id="esx-Dc-opT"/>
                             <constraint firstAttribute="trailing" secondItem="K8f-xg-pfC" secondAttribute="trailing" id="mzP-eo-NR0"/>
                             <constraint firstItem="K8f-xg-pfC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="qZf-Qr-uHo"/>
                             <constraint firstItem="CTL-Dc-QZi" firstAttribute="top" secondItem="1Qa-p1-Ro5" secondAttribute="bottom" constant="16" id="rMs-sd-Vot"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="K8f-xg-pfC" secondAttribute="bottom" id="sNI-HN-Tqc"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="trA-bb-mUe" secondAttribute="bottom" constant="8" id="ud9-DQ-1za"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="rSj-ng-azP" secondAttribute="bottom" constant="61" id="vbD-LJ-JIb"/>
                             <constraint firstAttribute="trailing" secondItem="CTL-Dc-QZi" secondAttribute="trailing" constant="13" id="vuN-QH-RxK"/>
                         </constraints>
@@ -135,6 +148,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="attack" width="198" height="223"/>
         <image name="bg" width="768" height="1024"/>
         <image name="chest" width="393" height="440"/>
         <image name="enem1" width="574" height="487"/>
